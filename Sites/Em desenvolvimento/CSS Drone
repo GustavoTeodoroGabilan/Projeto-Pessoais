@@ -1,0 +1,116 @@
+h1{
+    text-align: center;
+}
+
+.Titulo{
+    width: 2000px;
+height: 60px;
+margin: 20px;
+border-width: 5px;
+border-style: ridge;
+border-color: greenyellow;
+position: relative;
+left: -100px;
+background-color: greenyellow;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+text-transform: uppercase;
+line-height: 60px;
+
+}
+
+.imagem{
+    width: 400px;
+    display: inline;
+    }
+
+.foto_um{
+    position: relative;
+    left: 100px;
+}
+
+.foto_dois{
+    position: relative;
+    left: 300px;
+}
+
+.foto_tres{
+    position: relative;
+    left: 500px;
+}
+button {
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(30deg, #195519, #4cf771);
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 17px;
+    padding: 0.6em 1.5em;
+    position: relative;
+    width: 350px;
+    left: -240px;
+    display: inline-block;
+    justify-content: space-between;
+    
+}
+
+button:hover {
+    background-position: right
+    center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+}
+
+@keyframes pulse512 {
+0% {
+    box-shadow: 0 0 0 0 #05da2166;
+}
+
+70% {
+    box-shadow: 0 0 0 0 rgb(218 103 68);
+}
+
+100% {
+    box-shadow: 0 0 0 0 rgb(218 103 68);
+ }
+}
+.produto{
+    width: 250px;
+    min-height: 200px;
+    height: 200px;
+    margin: -292px auto;
+    border-width: 5px;
+    border-style: groove;
+    border-color: green;
+    padding: 30px;
+    overflow: hidden;
+    border-radius: 10px;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+    
+}
+/* Texto Drone 2 */
+    .box__um{
+        background-color: lightgreen;
+        position: relative;
+        left: -463px;
+        
+        
+        
+    }
+    /* Texto Drone 1 */
+    .box__dois{
+        background-color: lightgreen;
+        position: relative;
+        left: -206px;
+    }
+    /* Texto Drone 2*/
+    .box__tres{
+        background-color: lightgreen;
+        position: relative;
+        left: 99px;
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
